@@ -1,0 +1,23 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesMThomas/Node-Notes-App.git"
+  },
+  "author": "Charles Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlesMThomas/Node-Notes-App/issues"
+  },
+  "homepage": "https://github.com/CharlesMThomas/Node-Notes-App#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "yargs": "^4.7.1"
+  }
+}
