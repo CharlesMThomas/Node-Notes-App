@@ -20,7 +20,9 @@ if (command === 'add') {
         console.log('Note title taken. Please try again!');
     }
 } else if (command === 'list') {
-    notes.getAll();
+    let allNotes = notes.getAll();
+    console.log(`Printing ${allNotes.length} notes(s).`);
+    allNotes.forEach(note => notes.logNote(note));
 } else if (command === 'read') {
     let note = notes.getNote(argv.title);
     if (note) {
